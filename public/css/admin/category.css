@@ -1,0 +1,49 @@
+/* all category */
+.content__header__category{
+    color: #007BFF;
+}
+.btn__addcategory__admin{
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.text__edit{
+    color:black;
+}
+.text__edit:hover{
+    color:black;
+}
+.text__del{
+    color:white;
+}
+.text__del:hover{
+    color:white;
+}
+.table__category{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.title__category__admin{
+    background-color: white;
+    height: 10%;
+}
+.category__admin{
+    background-color: white;
+}
+
+/* create and edit category */
+.categoryadmin__crud{   
+    padding: 0 8% 0 15% ; 
+}
+#input__admincategory__crud{
+    padding: 5% 0 5% 10%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.title__admincategory__crud{
+    font-size: large;
+}
+.icon__admincategory___crud{
+    font-size:medium;
+}

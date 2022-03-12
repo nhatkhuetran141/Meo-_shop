@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.background__image {
+    background-image: url("../../Image/catlogin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    height: 100%;
+}
+
+.container__main {
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    display: flex;
+    width: 60%;
+    height: 400px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.514);
+}
+
+/*=========== leftside */
+.container__image {
+    width: 60%;
+}
+.leftside__image {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -webkit-filter: brightness(85%);
+    filter: brightness(85%);
+}
+
+/* ======= end leftside */
+.rightside__container {
+    margin: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.riightside__header {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.input__wrapper {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input__field {
+    height: 35px;
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 20px;
+    outline-width: 0;
+    padding: 0 10px;
+}
+
+.input__field-button {
+    margin-top: 6px;
+    background-color: rgb(51, 167, 51);
+    color: white;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.input__field-button:hover {
+    background-color: rgb(34, 124, 34);
+    transition: 0.3s linear;
+}
+/* =======right side */
+
+.message__error {
+    border: 1px solid rgb(240, 63, 63);
+    background: rgb(255, 108, 108);
+    font-size: 14px;
+    padding: 6px 18px;
+    text-align: center;
+    color: white;
+}
